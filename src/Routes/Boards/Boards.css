@@ -1,0 +1,7 @@
+.Boards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-column-gap: 1.3em;
+  grid-row-gap: 1.3em;
+}

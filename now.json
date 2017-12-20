@@ -1,0 +1,9 @@
+{
+  "name": "terllo",
+  "alias": "terllo",
+  "env": {
+    "NODE_ENV": "production",
+    "MONGO_URL": "@terllo_db",
+    "JWT_SECRET": "@terllo_jwt"
+  }
+}

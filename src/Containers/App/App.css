@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-rows: 75px auto;
+  height: 100vh;
+  width: 100vw;
+  grid-row-gap: 1.2em;
+}
+
+.error {
+  color: red;
+}

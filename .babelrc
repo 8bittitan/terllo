@@ -1,0 +1,10 @@
+{
+  "env": {
+    "frontend": {
+      "presets": ["react", ["env", { "targets": { "browsers": ["last 2 versions"] } }], "stage-0"]
+    },
+    "server": {
+      "presets": [["env", { "targets": { "node": "current" } }], "stage-0"]
+    }
+  }
+}

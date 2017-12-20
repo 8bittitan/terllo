@@ -1,0 +1,40 @@
+.Dropdown {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+}
+
+.Dropdown .DropdownContent {
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 0;
+  right: 0;
+  height: 0;
+  display: none;
+  background-color: #e5e5e5;
+  border-radius: 7px;
+  padding: 1em;
+  font-size: 0.75em;
+  box-shadow: 0 0 6px 3px rgba(50, 50, 50, 0.22);
+  box-sizing: unset;
+}
+
+.Dropdown .DropdownContent.wide {
+  left: -25px;
+  right: -25px;
+}
+
+.Dropdown .DropdownContent.superwide {
+  left: -50px;
+  right: -50px;
+}
+
+.Dropdown .DropdownContent.open {
+  display: block;
+  height: auto;
+}

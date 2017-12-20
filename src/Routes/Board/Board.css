@@ -1,0 +1,35 @@
+.Board__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Board__Header .Board__Title {
+  width: auto;
+  flex: 1;
+  max-width: 50%;
+}
+
+.Board__Header .Board_Settings {
+  width: 100px;
+}
+
+.Lists-Wrapper {
+  position: relative;
+  width: auto;
+  height: 100%;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.Lists {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  margin-top: 0.5em;
+  min-height: 300px;
+}

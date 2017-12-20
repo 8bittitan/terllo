@@ -1,0 +1,28 @@
+.List {
+  background-color: #ececec;
+  box-shadow: 0 0 5px 5px rgba(50,50,50,0.22);
+  border-radius: 7px;
+  width: 300px;
+  height: auto;
+  margin-right: 1.5em;
+}
+
+.List__Heading {
+  margin-bottom: 0.5em;
+  background-color: #1ea4c5;
+  color: #f1f1f1;
+  padding: 1em 1.2rem;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.List__Heading .Dropdown {
+  width: 10%;
+}
+
+.List__Tasks {
+  padding: 0.5em 1.2rem;
+}

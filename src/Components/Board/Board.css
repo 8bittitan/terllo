@@ -1,0 +1,25 @@
+.Board {
+  display: block;
+  height: 20vw;
+  width: 100%;
+  background-color: #1ea4c5;
+  border: 0;
+  color: #ececec;
+  cursor: pointer;
+  height: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Board:hover {
+  background-color: #1c97b5;
+  box-shadow: 0 0 6px 3px rgba(50, 50, 50, 0.22);
+}
+
+.Board--default {
+  background-color: #ececec;
+  color: #333333;
+}
+
+.Board--default:hover {
+  background-color: #ececec;
+}

@@ -1,0 +1,13 @@
+.Task {
+  margin-bottom: 0.5em;
+  display: flex;
+}
+
+.Task label.completed {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.Task input[type="checkbox"] {
+  margin-right: 0.5em;
+}
